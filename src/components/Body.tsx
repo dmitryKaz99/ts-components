@@ -50,7 +50,7 @@ const ShowRatesListButton: FC<propsType> = (props) => {
   return (
     <Button
       onClick={props.toggleShow}
-      variant={props.show ? "danger" : "danger"}
+      variant={props.show ? "danger" : "success"}
       className={"mb-3"}
     >
       {(props.show ? "Скрыть" : "Показать") + " курс валют"}
